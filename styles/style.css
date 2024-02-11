@@ -61,14 +61,140 @@
 }
 
 .cover {
-width: 1100px;
-height: 757px;
-background-image: url(../images/cover.jpg);
-z-index: 0;
-position: relative;
+  width: 1100px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  z-index: 0;
+  position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* letter-spacing: 10px; */
+  padding-left: 20px;
 }
 
 
+/* .cover_title {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-top: 150px;
+} */
+
+.cover_title {
+  width: 100%;
+  font-size: 90px;
+  /* letter-spacing: 20px; */
+  padding-top: 180px;
+}
+
+
+
+.aligned-text {
+  display: block;
+  line-height: 1;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding-left: 30px;
+}
+
+
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding-top: 25px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__description-text {
+  color: white;
+  word-spacing: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-color: white;
+  padding: 10px 30px;
+  margin-right: 10px;
+
+}
+
+.lots {
+  padding-top: 179px;
+}
+
+.lots_heading {
+  padding-bottom: 27px;
+}
+
+
+
+/* Ниже старый варинт, выше последний вариант */
+
+/* .aligned-text {
+  font-size: 50px;
+  letter-spacing: 25px;
+  position: absolute;
+  z-index: 2;
+  padding-left: 50px;
+  padding-right: 0px;
+  line-height: 4.5;
+}
+
+.letter-spacing-extended {
+  padding-left: 45px;
+}
+
+
+.aligned-text_center {
+  font-size: 50px;
+  letter-spacing: 20px;
+  position: absolute;
+  z-index: 2;
+  padding-left: 0px;
+  line-height: 7;
+}
+
+
+
+
+.aligned-text_right {
+  font-size: 50px;
+  letter-spacing: 20px;
+  position: absolute;
+  z-index: 2;
+  padding-left: 0px;
+  line-height: 9.5;
+} */
 
 
 
